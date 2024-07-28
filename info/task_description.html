@@ -1,22 +1,22 @@
 <!-- Describe task in general -->
 <p>
-    {{TIPO}}
+    <strong>Verificação de Aprendizagem:</strong> Avalie sua compreensão. Tente resolver sem consultar materiais, usando apenas seu conhecimento. Identifique áreas que precisam de revisão.
 </p>
 <h4>Enunciado</h4>
 
 <p>
-    {{ENUNCIADO}}
+    Rita, operadora de uma central de táxis, quer oferecer aos clientes uma estimativa rápida do custo de suas corridas, baseada em uma tarifa base, na tarifa por quilômetro e no número de quilômetros percorridos. Ela precisa de uma função que possa calcular o custo total de qualquer corrida, levando em conta variações na tarifa base e nos quilômetros percorridos, para fornecer estimativas precisas aos clientes antes do início da viagem.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> {{ENTRADA}}
+    <strong>Entrada: </strong> Dois números float: Quilômetros percorridos (km), tarifa por quilômetro (R$) e a tarifa base (R$).
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> Um float representando o custo total da corrida em R$.
 </p>
 
 
@@ -32,11 +32,15 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    tarifa_taxi(10.0, 2.0, 5.0) >> 25.0
+tarifa_taxi(5.0, 1.5, 3.0) >> 10.5
+tarifa_taxi(0.0, 2.0, 4.0) >> 4.0
+tarifa_taxi(15.5, 3.0, 2.0) >> 48.5
 </pre>
 {% endif %}
 </div>
 <h4>Habilidades</h4>
 <ul>
-    {{HABILIDADES}}
+    <li>Operações Aritméticas Básicas</li>
+
 </ul>

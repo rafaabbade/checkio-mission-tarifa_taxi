@@ -1,1 +1,14 @@
-{{CODIGO INICIAL}}
+def tarifa_taxi(km_percorridos, tarifa_por_km, tarifa_base):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(tarifa_taxi(10.0, 2.0, 5.0))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert tarifa_taxi(10.0, 2.0, 5.0) == 25.0
+assert tarifa_taxi(5.0, 1.5, 3.0) == 10.5
+assert tarifa_taxi(0.0, 2.0, 4.0) == 4.0
+assert tarifa_taxi(15.5, 3.0, 2.0) == 48.5
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
